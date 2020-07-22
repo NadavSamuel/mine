@@ -1,0 +1,29 @@
+h3:hover{
+    cursor: pointer;
+}
+.board-cont{
+    background-color: brown;
+    width: 80%;
+    margin:auto;
+  }
+  .title{
+      text-align: center;
+  }
+  table {
+    width: 40%;
+    margin:auto;
+    margin-top: 80px;
+    height: 200px;
+    table-layout: fixed;
+
+  }
+  table:hover{
+      cursor: pointer;
+  }
+  .cell{
+    background: #999999;
+  }
+  .cell-marked{
+    background: red;
+  }
+
