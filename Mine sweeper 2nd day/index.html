@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine sweeper!</title>
+    <link rel="stylesheet" href="css/app.css"/>
+
+</head>
+<body onload="init()">
+    <div class="title">
+        <h1>Mine Sweeper!</h1>
+        <h3 onclick="init()"></h3>
+    </div>
+    <div class="levels">
+        <button class="easy" onclick="easyLvl()">Easy</button>
+        <button class="mediun" onclick="mediumLvl()">Medim</button>
+        <button class="hard" onclick="hardLvl()">Hard</button>
+    </div>
+    <div class="hints">
+        <h3></h3>
+    </div>
+    
+    <div class="game-cont"></div>
+
+
+    <script src="js/util.js"></script> 
+    <script src="js/game.js"></script>
+</body>
+</html>

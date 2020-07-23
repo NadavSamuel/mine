@@ -1,0 +1,62 @@
+body{
+  background-color: lightblue;
+}
+.title h3:hover{
+    cursor: pointer;
+}
+.hints h3 span{
+  cursor: pointer;
+}
+.levels{
+  width: 12.9%;
+  margin: auto;
+}
+button:hover{
+  cursor: pointer;
+}
+.board-cont{
+    background-color: brown;
+    width: 80%;
+    margin:auto;
+  }
+  .title{
+      text-align: center;
+  }
+  .hints{
+    width: 50%;
+    margin: auto;
+  }
+  .hints h3 span{
+    text-align: center;
+    padding: 20px;
+  }
+  table {
+    width: 40%;
+    margin:auto;
+    margin-top: 80px;
+    height: 300px;
+    /* table-layout: fixed; */
+    /* text-align: center; */
+    /* border-collapse: collapse; */
+    border-spacing: 1px;
+
+
+  }
+  table:hover{
+      cursor: pointer;
+  }
+  table td{
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  .cell-marked{
+    background: red;
+  }
+  .flag{
+    display: block;
+  }
+  
+
+
